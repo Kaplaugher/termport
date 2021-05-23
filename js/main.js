@@ -11,10 +11,10 @@ about.addEventListener('click', () => {
     // modal: true,
     width: '400px',
     height: '400px',
-    top: 50,
-    right: 50,
-    bottom: 50,
-    left: 50,
+    top: 20,
+    right: 20,
+    bottom: 20,
+    left: 20,
     mount: aboutContent,
     onfocus: function () {
       this.setBackground('#00aa00');
@@ -30,10 +30,10 @@ contact.addEventListener('click', () => {
     title: 'Contact Me',
     width: '400px',
     height: '400px',
-    top: 150,
-    right: 50,
-    bottom: 50,
-    left: 250,
+    top: 20,
+    right: 20,
+    bottom: 20,
+    left: 20,
     mount: contactContent,
     onfocus: function () {
       this.setBackground('#00aa00');
@@ -47,12 +47,12 @@ contact.addEventListener('click', () => {
 projects.addEventListener('click', () => {
   const projectsBox = new WinBox({
     title: 'Recent Projects',
-    width: '800px',
-    height: '800px',
-    top: 150,
-    right: 50,
-    bottom: 50,
-    left: 250,
+    width: '600px',
+    height: '400px',
+    top: 20,
+    right: 20,
+    bottom: 20,
+    left: 20,
     mount: projectsContent,
     onfocus: function () {
       this.setBackground('#00aa00');
